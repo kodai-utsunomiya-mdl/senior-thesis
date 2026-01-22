@@ -6,7 +6,7 @@ This repository contains the resources for my Bachelor's Thesis, submitted in Fe
 
 ## Abstract
 
-Deep neural networks often employ architectures where the number of neurons (width) varies significantly across layers (e.g., bottleneck structures). However, existing theories on learning dynamics in the infinite-width limit, such as **Neural Tangent Kernel (NTK)** and **Maximal Update Parametrization ($\mu$P)**, typically assume that all hidden layer widths scale at the same order (i.e., $n_l = \Theta(n)$ for all $l$).
+Deep neural networks often employ architectures where the number of neurons (width) varies significantly across layers (e.g., bottleneck structures). However, existing theories on learning dynamics in the infinite-width limit, such as **Neural Tangent Kernel (NTK)** and **Maximal Update Parametrization ($\mu\text{P}$)**, typically assume that all hidden layer widths scale at the same order (i.e., $n_l = \Theta(n)$ for all $l$).
 
 This thesis investigates the learning dynamics when intermediate layer widths increase at different orders (e.g., $n_l = \Theta(n)$ vs $n_k = \Theta(n^r)$).
 
